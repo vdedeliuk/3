@@ -3,8 +3,8 @@
 
 Розглянемо код по кроках:
 Спочатку генерується випадкове число від 0 до 100 та перетворюється у рядок.
-    const num = Math.floor(Math.random() * 101);
-    num_s = num.toString();
+    ```const num = Math.floor(Math.random() * 101);
+    num_s = num.toString();```
 
 Ініціалізуються змінні slot1 та slot2, які будуть використовуватися для зберігання текстового варіанту першої та другої цифри числа відповідно.
     ```let slot1
@@ -33,7 +33,7 @@
 
 
 Виконується перевірка на довжину рядка числа (num_s). Якщо число однозначне, викликається функція secondNum для конвертації цифри в слова, і результат виводиться в консоль.
-```    if (strNum[1] == "0") {
+    ```if (strNum[1] == "0") {
             switch (strNum[0]) {
                 case "1": console.log(num, "=>", "ten");
                     break;
@@ -49,8 +49,8 @@
 ```    console.log(num, "=>", "one hundred");```
 
 Наведені функції firstNumber та secondNumber використовуються для конвертації цифр у слова за допомогою використання switch конструкції.
-```    function firstNumber(a) {
+    ```function firstNumber(a) {
     }
     function secondNumber(b) {
-    }
-```
+    }```
+
